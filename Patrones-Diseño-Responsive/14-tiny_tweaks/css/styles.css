@@ -50,3 +50,15 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+h1 {
+    text-align: cemter;
+    font-size: 3rem;
+}
+
+@media (min-width){
+    h1 {
+        font-size: 6rem;
+        text-align: left;
+    }
+}
